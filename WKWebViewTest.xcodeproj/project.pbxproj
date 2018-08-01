@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8A7144EAA387378FA649BA10 /* libPods-WKWebViewTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262754551A2C73F5092244C /* libPods-WKWebViewTest.a */; };
+		F36D207B211004A900072861 /* DJTWebViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F36D207A211004A900072861 /* DJTWebViewMenu.m */; };
+		F36D20802110562400072861 /* NSObject+DJTRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F36D207F2110562400072861 /* NSObject+DJTRuntime.m */; };
+		F385EDAF210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F385EDAE210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.m */; };
+		F385EDB3210EC9CF00B3A771 /* NSURL+DJTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F385EDB2210EC9CF00B3A771 /* NSURL+DJTTool.m */; };
+		F3893A04211161F600F7FA71 /* WKWebView+DJTWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F3893A03211161F600F7FA71 /* WKWebView+DJTWebCache.m */; };
+		F3893A082111824700F7FA71 /* DJTRegisterURLSchemes.m in Sources */ = {isa = PBXBuildFile; fileRef = F3893A072111824700F7FA71 /* DJTRegisterURLSchemes.m */; };
+		F3893A0B2111827B00F7FA71 /* DJTURLSchemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3893A0A2111827B00F7FA71 /* DJTURLSchemeModel.m */; };
 		F389517721084FDD00DEF893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F389517621084FDD00DEF893 /* AppDelegate.m */; };
 		F389517A21084FDD00DEF893 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F389517921084FDD00DEF893 /* ViewController.m */; };
 		F389517D21084FDD00DEF893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F389517B21084FDD00DEF893 /* Main.storyboard */; };
@@ -17,12 +24,29 @@
 		F389519021085A0300DEF893 /* DJTWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F389518F21085A0300DEF893 /* DJTWebViewVC.m */; };
 		F38951932108631400DEF893 /* DJTWebNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F38951922108631400DEF893 /* DJTWebNavVC.m */; };
 		F38951992108737700DEF893 /* DJTWebBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F38951982108737700DEF893 /* DJTWebBaseVC.m */; };
+		F3989E36210AF1F6000CB222 /* DJTWKPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3989E35210AF1F6000CB222 /* DJTWKPanGestureRecognizer.m */; };
+		F3989E3F210B0EE8000CB222 /* WKWebView+DJTWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F3989E3E210B0EE8000CB222 /* WKWebView+DJTWebCache.m */; };
+		F3989E42210B0EFE000CB222 /* WKWebView+DJTWebCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = F3989E41210B0EFE000CB222 /* WKWebView+DJTWebCookie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13B3B7BA0F57C87FCD3CC318 /* Pods-WKWebViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewTest/Pods-WKWebViewTest.release.xcconfig"; sourceTree = "<group>"; };
 		6262754551A2C73F5092244C /* libPods-WKWebViewTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKWebViewTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99991E657DCC6C125E01D3EA /* Pods-WKWebViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewTest/Pods-WKWebViewTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F36D2079211004A900072861 /* DJTWebViewMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTWebViewMenu.h; sourceTree = "<group>"; };
+		F36D207A211004A900072861 /* DJTWebViewMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTWebViewMenu.m; sourceTree = "<group>"; };
+		F36D207E2110562400072861 /* NSObject+DJTRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DJTRuntime.h"; sourceTree = "<group>"; };
+		F36D207F2110562400072861 /* NSObject+DJTRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DJTRuntime.m"; sourceTree = "<group>"; };
+		F385EDAD210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+DJTWebAlert.h"; sourceTree = "<group>"; };
+		F385EDAE210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+DJTWebAlert.m"; sourceTree = "<group>"; };
+		F385EDB1210EC9CF00B3A771 /* NSURL+DJTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+DJTTool.h"; sourceTree = "<group>"; };
+		F385EDB2210EC9CF00B3A771 /* NSURL+DJTTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DJTTool.m"; sourceTree = "<group>"; };
+		F3893A02211161F600F7FA71 /* WKWebView+DJTWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+DJTWebCache.h"; sourceTree = "<group>"; };
+		F3893A03211161F600F7FA71 /* WKWebView+DJTWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+DJTWebCache.m"; sourceTree = "<group>"; };
+		F3893A062111824700F7FA71 /* DJTRegisterURLSchemes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTRegisterURLSchemes.h; sourceTree = "<group>"; };
+		F3893A072111824700F7FA71 /* DJTRegisterURLSchemes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTRegisterURLSchemes.m; sourceTree = "<group>"; };
+		F3893A092111827B00F7FA71 /* DJTURLSchemeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTURLSchemeModel.h; sourceTree = "<group>"; };
+		F3893A0A2111827B00F7FA71 /* DJTURLSchemeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTURLSchemeModel.m; sourceTree = "<group>"; };
 		F389517221084FDD00DEF893 /* WKWebViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389517521084FDD00DEF893 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F389517621084FDD00DEF893 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +63,12 @@
 		F38951922108631400DEF893 /* DJTWebNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTWebNavVC.m; sourceTree = "<group>"; };
 		F38951972108737700DEF893 /* DJTWebBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTWebBaseVC.h; sourceTree = "<group>"; };
 		F38951982108737700DEF893 /* DJTWebBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTWebBaseVC.m; sourceTree = "<group>"; };
+		F3989E34210AF1F6000CB222 /* DJTWKPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTWKPanGestureRecognizer.h; sourceTree = "<group>"; };
+		F3989E35210AF1F6000CB222 /* DJTWKPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTWKPanGestureRecognizer.m; sourceTree = "<group>"; };
+		F3989E3D210B0EE8000CB222 /* WKWebView+DJTWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+DJTWebCache.h"; sourceTree = "<group>"; };
+		F3989E3E210B0EE8000CB222 /* WKWebView+DJTWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+DJTWebCache.m"; sourceTree = "<group>"; };
+		F3989E40210B0EFE000CB222 /* WKWebView+DJTWebCookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+DJTWebCookie.h"; sourceTree = "<group>"; };
+		F3989E41210B0EFE000CB222 /* WKWebView+DJTWebCookie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+DJTWebCookie.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +100,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F36D20782110046700072861 /* DJTWebViewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F36D2079211004A900072861 /* DJTWebViewMenu.h */,
+				F36D207A211004A900072861 /* DJTWebViewMenu.m */,
+			);
+			path = DJTWebViewMenu;
+			sourceTree = "<group>";
+		};
+		F36D207D211055FA00072861 /* NSObject+DJTRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				F36D207E2110562400072861 /* NSObject+DJTRuntime.h */,
+				F36D207F2110562400072861 /* NSObject+DJTRuntime.m */,
+			);
+			path = "NSObject+DJTRuntime";
+			sourceTree = "<group>";
+		};
+		F385EDAC210EB95300B3A771 /* UIAlertController+DJTWebAlert */ = {
+			isa = PBXGroup;
+			children = (
+				F385EDAD210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.h */,
+				F385EDAE210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.m */,
+			);
+			path = "UIAlertController+DJTWebAlert";
+			sourceTree = "<group>";
+		};
+		F385EDB0210EC9A500B3A771 /* NSURL+DJTTool */ = {
+			isa = PBXGroup;
+			children = (
+				F385EDB1210EC9CF00B3A771 /* NSURL+DJTTool.h */,
+				F385EDB2210EC9CF00B3A771 /* NSURL+DJTTool.m */,
+			);
+			path = "NSURL+DJTTool";
+			sourceTree = "<group>";
+		};
+		F3893A01211161BC00F7FA71 /* WKWebView+DJTWebCache */ = {
+			isa = PBXGroup;
+			children = (
+				F3893A02211161F600F7FA71 /* WKWebView+DJTWebCache.h */,
+				F3893A03211161F600F7FA71 /* WKWebView+DJTWebCache.m */,
+			);
+			path = "WKWebView+DJTWebCache";
+			sourceTree = "<group>";
+		};
+		F3893A05211181FB00F7FA71 /* DJTURLSchemes */ = {
+			isa = PBXGroup;
+			children = (
+				F3893A062111824700F7FA71 /* DJTRegisterURLSchemes.h */,
+				F3893A072111824700F7FA71 /* DJTRegisterURLSchemes.m */,
+				F3893A092111827B00F7FA71 /* DJTURLSchemeModel.h */,
+				F3893A0A2111827B00F7FA71 /* DJTURLSchemeModel.m */,
+			);
+			path = DJTURLSchemes;
+			sourceTree = "<group>";
+		};
 		F389516921084FDD00DEF893 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +177,7 @@
 		F389517421084FDD00DEF893 /* WKWebViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				F3989E2F210ABDA3000CB222 /* DJTWebTool */,
 				F389517521084FDD00DEF893 /* AppDelegate.h */,
 				F389517621084FDD00DEF893 /* AppDelegate.m */,
 				F389517821084FDD00DEF893 /* ViewController.h */,
@@ -100,14 +187,89 @@
 				F389518021084FDF00DEF893 /* LaunchScreen.storyboard */,
 				F389518321084FDF00DEF893 /* Info.plist */,
 				F389518421084FDF00DEF893 /* main.m */,
-				F389518E21085A0300DEF893 /* DJTWebViewVC.h */,
-				F389518F21085A0300DEF893 /* DJTWebViewVC.m */,
-				F38951912108631400DEF893 /* DJTWebNavVC.h */,
-				F38951922108631400DEF893 /* DJTWebNavVC.m */,
+			);
+			path = WKWebViewTest;
+			sourceTree = "<group>";
+		};
+		F3989E2F210ABDA3000CB222 /* DJTWebTool */ = {
+			isa = PBXGroup;
+			children = (
+				F3893A05211181FB00F7FA71 /* DJTURLSchemes */,
+				F36D20782110046700072861 /* DJTWebViewMenu */,
+				F3989E37210B0E32000CB222 /* DJTWebViewCategory */,
+				F3989E33210AF136000CB222 /* DJTPanGestureRecognizer */,
+				F3989E31210ABDD3000CB222 /* DJTWebView */,
+				F3989E32210AC41D000CB222 /* DJTWebNavVC */,
+				F3989E30210ABDBE000CB222 /* DJTWebBaseVC */,
+			);
+			path = DJTWebTool;
+			sourceTree = "<group>";
+		};
+		F3989E30210ABDBE000CB222 /* DJTWebBaseVC */ = {
+			isa = PBXGroup;
+			children = (
 				F38951972108737700DEF893 /* DJTWebBaseVC.h */,
 				F38951982108737700DEF893 /* DJTWebBaseVC.m */,
 			);
-			path = WKWebViewTest;
+			path = DJTWebBaseVC;
+			sourceTree = "<group>";
+		};
+		F3989E31210ABDD3000CB222 /* DJTWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F389518E21085A0300DEF893 /* DJTWebViewVC.h */,
+				F389518F21085A0300DEF893 /* DJTWebViewVC.m */,
+			);
+			path = DJTWebView;
+			sourceTree = "<group>";
+		};
+		F3989E32210AC41D000CB222 /* DJTWebNavVC */ = {
+			isa = PBXGroup;
+			children = (
+				F38951912108631400DEF893 /* DJTWebNavVC.h */,
+				F38951922108631400DEF893 /* DJTWebNavVC.m */,
+			);
+			path = DJTWebNavVC;
+			sourceTree = "<group>";
+		};
+		F3989E33210AF136000CB222 /* DJTPanGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				F3989E34210AF1F6000CB222 /* DJTWKPanGestureRecognizer.h */,
+				F3989E35210AF1F6000CB222 /* DJTWKPanGestureRecognizer.m */,
+			);
+			path = DJTPanGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		F3989E37210B0E32000CB222 /* DJTWebViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F3893A01211161BC00F7FA71 /* WKWebView+DJTWebCache */,
+				F36D207D211055FA00072861 /* NSObject+DJTRuntime */,
+				F385EDB0210EC9A500B3A771 /* NSURL+DJTTool */,
+				F385EDAC210EB95300B3A771 /* UIAlertController+DJTWebAlert */,
+				F3989E39210B0E66000CB222 /* WKWebView+DJTWebCookie */,
+				F3989E38210B0E4D000CB222 /* WKWebView+DJTWebViewCache */,
+			);
+			path = DJTWebViewCategory;
+			sourceTree = "<group>";
+		};
+		F3989E38210B0E4D000CB222 /* WKWebView+DJTWebViewCache */ = {
+			isa = PBXGroup;
+			children = (
+				F3989E3D210B0EE8000CB222 /* WKWebView+DJTWebCache.h */,
+				F3989E3E210B0EE8000CB222 /* WKWebView+DJTWebCache.m */,
+			);
+			path = "WKWebView+DJTWebViewCache";
+			sourceTree = "<group>";
+		};
+		F3989E39210B0E66000CB222 /* WKWebView+DJTWebCookie */ = {
+			isa = PBXGroup;
+			children = (
+				F3989E40210B0EFE000CB222 /* WKWebView+DJTWebCookie.h */,
+				F3989E41210B0EFE000CB222 /* WKWebView+DJTWebCookie.m */,
+			);
+			path = "WKWebView+DJTWebCookie";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,12 +364,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36D20802110562400072861 /* NSObject+DJTRuntime.m in Sources */,
 				F389519021085A0300DEF893 /* DJTWebViewVC.m in Sources */,
 				F38951992108737700DEF893 /* DJTWebBaseVC.m in Sources */,
 				F389517A21084FDD00DEF893 /* ViewController.m in Sources */,
+				F36D207B211004A900072861 /* DJTWebViewMenu.m in Sources */,
+				F3893A082111824700F7FA71 /* DJTRegisterURLSchemes.m in Sources */,
+				F3989E36210AF1F6000CB222 /* DJTWKPanGestureRecognizer.m in Sources */,
+				F3893A04211161F600F7FA71 /* WKWebView+DJTWebCache.m in Sources */,
 				F389518521084FDF00DEF893 /* main.m in Sources */,
+				F3893A0B2111827B00F7FA71 /* DJTURLSchemeModel.m in Sources */,
+				F3989E42210B0EFE000CB222 /* WKWebView+DJTWebCookie.m in Sources */,
+				F385EDB3210EC9CF00B3A771 /* NSURL+DJTTool.m in Sources */,
 				F38951932108631400DEF893 /* DJTWebNavVC.m in Sources */,
+				F3989E3F210B0EE8000CB222 /* WKWebView+DJTWebCache.m in Sources */,
 				F389517721084FDD00DEF893 /* AppDelegate.m in Sources */,
+				F385EDAF210EB9EA00B3A771 /* UIAlertController+DJTWebAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
